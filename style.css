@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.skills-logos img{
+    width: 30px;
+    height: 30px;
+}
+
 .grid1 {
     display: grid;
     grid-template-columns: repeat(2, 400px) auto;
@@ -58,4 +63,19 @@
     background-color:rgb(5, 242, 52);
     grid-area: 2 / 2 / 3 / 3;
     border-radius: 10px;
+}
+
+.contactInfo {
+    height: 15%;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof-links img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
 }
