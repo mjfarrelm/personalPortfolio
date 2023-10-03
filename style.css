@@ -8,13 +8,21 @@
     align-items: center;
     background-color: #111;
     color: white;
-    height: 4em;
+    height: 5em;
     width: 100%;
     position: fixed;
     top: -4.5em;
-    margin-bottom: 2rem;
     transform: translateY(100%);
     transition: transform .3s linear;
+}
+
+.navbar img {
+    width: auto;
+    height: 60px;
+}
+
+.personalInfo {
+    padding-top: 4.5rem ;
 }
 
 .profilepic img{
