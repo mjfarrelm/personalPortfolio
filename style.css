@@ -24,11 +24,16 @@
 }
 
 body {
+
     margin: 0%;
 }
 
 .personalInfo {
-    padding-top: 4.5rem ;
+    padding-top: 8rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 .profilepic img{
@@ -37,25 +42,47 @@ body {
    border-radius: 150px;
 }
 
-.skills-logos {
-    display: flex;
-    justify-content: space-evenly;
+.personalInfo p {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    background-color: beige;
 }
 
-.skills-logos img{
+.skillset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure.code-skill {
+    text-align: center;
+    width: 80px;
+}
+
+.code-skill img {
     width: 60px;
     height: 60px;
 }
 
-.skills-list {
+.code-skill caption {
+    display: block;
+}
+
+/* .skills-logos {
     display: flex;
     justify-content: space-evenly;
 }
 
-.skills-list p {
-    font-size: 1.5em;
-    float: left;
+.skills-logos img {
+    width: 60px;
+    height: 60px;
 }
+
+.skills-logos figcaption {
+    font-size: 1.25rem;
+    text-align: center;
+} */
 
 .grid1 {
     display: grid;
