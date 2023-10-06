@@ -18,13 +18,17 @@
     transition: transform .3s linear;
 }
 
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
 .navbar img {
     width: auto;
     height: 60px;
 }
 
 body {
-
     margin: 0%;
 }
 
@@ -50,6 +54,7 @@ body {
     background-color: beige;
 }
 
+
 .skillset {
     display: flex;
     justify-content: center;
@@ -68,21 +73,6 @@ figure.code-skill {
 .code-skill caption {
     display: block;
 }
-
-/* .skills-logos {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.skills-logos img {
-    width: 60px;
-    height: 60px;
-}
-
-.skills-logos figcaption {
-    font-size: 1.25rem;
-    text-align: center;
-} */
 
 .grid1 {
     display: grid;
