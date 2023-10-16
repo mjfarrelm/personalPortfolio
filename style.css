@@ -18,6 +18,7 @@
     top: -5em;
     transform: translateY(100%);
     transition: transform .3s linear;
+    z-index: 5;
 }
 
 .navbar a {
@@ -40,30 +41,32 @@ body {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    width: auto;
+    height: 70%;
 }
 
 .personalInfo h2 {
     position: absolute;
     top: 20%;
     color: #111;
-    text-decoration: solid 5px white;
+    -webkit-text-stroke: 2px black;
     font-size: 10rem;
+    z-index: 5;
 }
 
-.profilepic img{
-   width: auto;
+.personalInfo img{
    opacity: 0.4;
-   mask-position: relative;
-   
+   position: relative;
 }
 
 .personalInfo p {
     position: absolute;
     display: inline-block;
     text-align: center;
-    bottom: -80%;
+    bottom: -120%;
     width: 60%;
-    font-size: 3rem;
+    font-size: 2.75rem;
+
 }
 
 .heading{
@@ -75,7 +78,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
+
+
 figure.code-skill {
     text-align: center;
     width: 80px;
@@ -91,8 +98,10 @@ figure.code-skill {
 }
 
 .code-projects {
-    padding-top: 5rem;
-    padding-bottom: 2.5rem;
+    /* padding-top: 5rem;
+    padding-bottom: 2.5rem; */
+    padding: 5rem, 2rem, 2.5rem, 2rem;
+    width: auto;
 }
 
 .grid1 {
@@ -100,7 +109,7 @@ figure.code-skill {
     grid-template-columns: repeat(2, 350px) auto;
     grid-template-rows: repeat(2, 300px);
     gap: 10px 10px;
-    padding: 10px;
+    padding: 5px 30px 5px 30px;
 }
 
 .gr1{
@@ -126,7 +135,7 @@ figure.code-skill {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, 400px);
     gap: 10px 10px;
-    padding: 10px;
+    padding: 5px 30px 5px 30px;
 }
 
 .gr4{
@@ -161,19 +170,19 @@ figure.code-skill {
 }
 
 .contact-form {
-    width: 80%;
+    width: 90%;
     margin: 2rem
 }
 
 .textbox-name {
-    width: 80%;
+    width: 37%;
     font-size: 20px;
     font-weight: 200;
     margin-bottom: 20px;
 }
 
 .textbox-email {
-    width: 80%;
+    width: 40%;
     font-size: 20px;
     font-weight: 200;
     margin-bottom: 20px;
@@ -218,12 +227,13 @@ figure.code-skill {
 
 .top-of-page {
     position: fixed;
-    right: 2rem;
+    right: 2.5rem;
     bottom: .5rem;
     min-height: 60px; 
     min-width: 60px;
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(1, 1, 1);
+    color: white;
 }
 
