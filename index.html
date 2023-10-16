@@ -12,18 +12,17 @@
 <body>
     <header class="navbar">
         <img src="./Images/MF Logo v3.png" alt="Personal Logo">
-        <img src="" alt="">
-        <img src="" alt="">
+    
         <a href="#AboutMe">About Me</a>
         <a href="#Skills">Skills</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
     </header>
 
-    <section class="personalInfo">
+    <section id="AboutMe" class="personalInfo">
         <h2>Hi, I'm Matthew</h2>
         <div class= "profilepic">
-            <img src="./Images/ProfilePic.png" alt="Profile Picture" title="Matthew">
+            <img src="./Images/Matthew.jpg" alt="Profile Picture" title="Matthew">
         </div>
         <p>I'm an aspiring developer who is looking to start a
             career in the tech industry. I've created this space
@@ -32,9 +31,9 @@
             space will hopefully become more sophisticated too!
         </p>
     </section>
-
+    
     <section id="Skills">
-        <h2>My Skills</h2>
+        <h2 class="heading">My Skills</h2>
         <div class="skillset">
             <figure class="code-skill">
                 <img src="./Images/HTML5 icon.png" alt="HTML Logo">
@@ -78,9 +77,9 @@
         </div>
     </section>    
     
+    <div class="code-projects">
     <main id="Projects">
-
-        <h2>My Projects</h2>
+        <h2 class="heading">My Projects</h2>
         <div class="grid1" >
             <div class="gr1"><a href=""></a></div>
             <div class="gr2"><a href=""></a></div>
@@ -93,23 +92,32 @@
             <div class="gr7"><a href=""></a></div>
         </div>
     </main >
+</div>
 
-    <section id="Contact">
-        <h2>Contact Me!</h2>
-        <form action="" method="get" class="contact-form">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" required>
+    <div class="content-separator">
 
-            <label for="email">Email</label>
-            <input type="text" id="email" required>
+    </div>
 
-            <label for="message">Message</label>
-            <textarea name="message-content" id="message" cols="30" rows="10" placeholder="Enter message here..."></textarea>
-
-            <button type="submit">Send!</button>
-        </form>
-    </section>
-        
+    <div class="contact-me">
+        <section id="Contact">
+            <h2>Contact Me!</h2>
+            
+            <form action="" method="get" class="contact-form">
+                <p>Want to ask a question or discuss a project? Get in touch...</p>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="textbox-name" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="textbox-email" required>
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message-content" id="message" class="textbox-box" name="message" cols="100" rows="16" placeholder="Enter message here..." required></textarea>
+                <br>
+                <button type="submit" class="form-button">Send!</button>
+            </form>
+        </section>
+    </div>
+    
     <footer class="contactInfo">
         <div class = prof-links>
             <a target="_blank" href="https://www.linkedin.com/in/matthew-farrelly-73224527b/">

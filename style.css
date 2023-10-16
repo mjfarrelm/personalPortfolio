@@ -4,6 +4,8 @@
     font-family: 'PT Serif', serif;
 }
 
+
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -33,25 +35,39 @@ body {
 }
 
 .personalInfo {
-    padding-top: 8rem ;
+    padding: 8rem 2rem ;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
 
+.personalInfo h2 {
+    position: absolute;
+    top: 20%;
+    color: #111;
+    text-decoration: solid 5px white;
+    font-size: 10rem;
+}
+
 .profilepic img{
    width: auto;
-   height:300px;
-   border-radius: 150px;
+   opacity: 0.4;
+   mask-position: relative;
+   
 }
 
 .personalInfo p {
+    position: absolute;
     display: inline-block;
     text-align: center;
-    width: 300px;
-    height: auto;
-    background-color: beige;
+    bottom: -80%;
+    width: 60%;
+    font-size: 3rem;
+}
+
+.heading{
+    padding-left: 2rem;
 }
 
 
@@ -72,6 +88,11 @@ figure.code-skill {
 
 .code-skill caption {
     display: block;
+}
+
+.code-projects {
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
 }
 
 .grid1 {
@@ -130,6 +151,48 @@ figure.code-skill {
     background-color:rgb(5, 242, 52);
     grid-area: 2 / 2 / 3 / 3;
     border-radius: 10px;
+}
+
+.contact-me {
+   padding: 4rem 2rem;
+   display: flex; 
+   justify-content: center;
+   align-content: space-between;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 2rem
+}
+
+.textbox-name {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.textbox-email {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.textbox-box {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.form-button {  
+    height: 2rem;
+    width: 4rem;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
 }
 
 .contactInfo {
