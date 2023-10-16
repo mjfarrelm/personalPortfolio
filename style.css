@@ -169,6 +169,10 @@ figure.code-skill {
    align-content: space-between;
 }
 
+.contact-me p, label {
+    font-size: 1.5rem;
+}
+
 .contact-form {
     width: 90%;
     margin: 2rem
