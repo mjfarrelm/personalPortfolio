@@ -103,16 +103,22 @@
     <h2 class="heading">Contact Me!</h2>
     <div class="contact-me">
         <section id="Contact">
-            <form action="" method="GET" class="contact-form">
+            <form action="https://formsubmit.co/2468e7008d093d94f586dc24900820b3" method="POST" class="contact-form">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
                 <p>Want to ask a question or discuss a project? Get in touch...</p>
                 <label for="name">Full Name:</label>
-                <input type="text" id="name" class="textbox-name" required>
+                <input type="text" id="name" name="name" class="textbox-name" required>
                 <br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" class="textbox-email" required>
+                <input type="email" id="email" name="email" class="textbox-email" required>
                 <br>
                 <label for="message">Message:</label>
-                <textarea name="message-content" id="message" class="textbox-box" name="message" cols="100" rows="16" placeholder="Enter message here..." required></textarea>
+                <textarea name="message-content" id="message" name="message" class="textbox-box" name="message" cols="100" rows="16" placeholder="Enter message here..." required></textarea>
                 <br>
                 <button type="submit" class="form-button">Send!</button>
             </form>
