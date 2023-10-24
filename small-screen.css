@@ -1,0 +1,8 @@
+@media (min-width: 320px) and (max-width: 450px) {
+    .personalInfo h2 {
+        font-size: 3rem;
+    }
+    .personalInfo p {
+        font-size: 1.5rem;
+    }
+  }
