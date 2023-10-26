@@ -36,7 +36,7 @@ body {
 }
 
 .personalInfo {
-    padding: 8rem 2rem ;
+    padding-bottom: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,8 @@ body {
 
 .personalInfo h2 {
     position: absolute;
-    top: 20%;
+    top: 7%;
+    text-align: center;
     color: #111;
     -webkit-text-stroke: 2px black;
     font-size: 10rem;
@@ -57,13 +58,14 @@ body {
 .personalInfo img{
    opacity: 0.4;
    position: relative;
+   width: 100%;
 }
 
 .personalInfo p {
     position: absolute;
     display: inline-block;
     text-align: center;
-    bottom: -120%;
+    bottom: -110%;
     width: 60%;
     font-size: 2.75rem;
 
@@ -71,7 +73,21 @@ body {
 
 .heading{
     padding-left: 2rem;
+    font-size: xx-large;
 }
+
+#Skills {
+    padding-top: 4rem;
+}
+
+#Projects {
+    padding-top: 4rem;
+}
+
+#Contact {
+    padding-top: 4rem;
+}
+
 
 
 .skillset {
@@ -163,7 +179,7 @@ figure.code-skill {
 }
 
 .contact-me {
-   padding: 4rem 2rem;
+   /* padding: 4rem 2rem; */
    display: flex; 
    justify-content: center;
    align-content: space-between;
