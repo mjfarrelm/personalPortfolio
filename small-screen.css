@@ -98,32 +98,40 @@
         padding-top: 1rem;
     }
 
-    .contact-me p, label {
-        font-size: 1.5rem;
+    .contact-me p {
+        text-align: center;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .contact-me label {
+        font-size: 1rem;
     }
     
     .contact-form {
-        width: 90%;
+        width: 100%;
         margin: 2rem
     }
     
     .textbox-name {
-        width: 37%;
-        font-size: 20px;
-        font-weight: 200;
+        width: 40%;
+        font-size: 10px;
+        font-weight: 100;
         margin-bottom: 20px;
     }
     
     .textbox-email {
-        width: 40%;
-        font-size: 20px;
-        font-weight: 200;
+        width: 48%;
+        font-size: 10px;
+        font-weight: 100;
         margin-bottom: 20px;
     }
     
     .textbox-box {
-        font-size: 20px;
-        font-weight: 200;
+        width: 50%;
+        resize: vertical;
+        font-size: 10px;
+        font-weight: 100;
         margin-bottom: 20px;
     }
     
