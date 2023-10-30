@@ -108,15 +108,33 @@
                     <input type="hidden" name="_captcha" value="false">
 
                     <p>Want to ask a question or discuss a project? Get in touch...</p>
-                    <label for="name">Full Name:</label>
-                    <input type="text" id="name" name="name" class="textbox-name" required>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="name">Full Name:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="name" name="name" class="textbox-name" required>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="email" name="email" class="textbox-email" required>
+                        </div>
                     <br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" class="textbox-email" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="message">Message:</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea name="message-content" id="message" name="message" class="textbox-box" name="message" style="height: 15em;" placeholder="Enter message here..." required></textarea>
+                        </div>
                     <br>
-                    <label for="message">Message:</label>
-                    <textarea name="message-content" id="message" name="message" class="textbox-box" name="message" style="height: 10em;" placeholder="Enter message here..." required></textarea>
-                    <br>
+                </div>
                     <button type="submit" class="form-button">Send!</button>
                 </form>
             </section>

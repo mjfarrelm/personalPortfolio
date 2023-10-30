@@ -114,8 +114,6 @@ figure.code-skill {
 }
 
 .code-projects {
-    /* padding-top: 5rem;
-    padding-bottom: 2.5rem; */
     padding: 5rem, 2rem, 2.5rem, 2rem;
     width: auto;
 }
@@ -179,53 +177,100 @@ figure.code-skill {
 }
 
 .contact-me {
-   /* padding: 4rem 2rem; */
-   display: flex; 
-   justify-content: center;
-   align-content: space-between;
+    margin-bottom: 5rem;
+    width: auto;
 }
 
+/* 
 .contact-me p, label {
     font-size: 1.5rem;
 }
 
-.contact-form {
+.contact-me label {
+    float: left;
+    width: 30%;
+    margin: 20px 20px 20px 0;
+}
+
+.contact-me input {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    margin:20px 20px 20px 0;
+}
+
+.contact-me textarea {
+    float: left;
+    width: 50%;
+} */
+
+/* Style inputs, select elements and textareas */
+.contact-me input, textarea{
     width: 90%;
-    margin: 2rem
-}
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 1.5rem;
+  }
 
-.textbox-name {
-    width: 37%;
-    max-width: 100%;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 20px;
+  .contact-me p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5rem;
 }
+  
+  /* Style the label to display next to the inputs */
+  .contact-me label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  
 
-.textbox-email {
-    width: 40%;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 20px;
-}
+  /* Style the container */
+  .contact-me  {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding-left: 10rem;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.textbox-box {
-    width: 90%;
-    height: 80%;
-    max-width: 100%;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 20px;
-}
 
-.form-button {  
-    height: 2rem;
-    width: 4rem;
+.form-button {
+    height: 4rem;
+    width: 8rem;
     background-color: red;
     color: white;
-    font-size: 20px;
+    font-size: 2em;
+    margin: 2rem auto;
+    display: block;
     border: none;
     outline: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .contactInfo {
