@@ -181,31 +181,6 @@ figure.code-skill {
     width: auto;
 }
 
-/* 
-.contact-me p, label {
-    font-size: 1.5rem;
-}
-
-.contact-me label {
-    float: left;
-    width: 30%;
-    margin: 20px 20px 20px 0;
-}
-
-.contact-me input {
-    float: left;
-    width: 50%;
-    font-size: 20px;
-    font-weight: 200;
-    margin:20px 20px 20px 0;
-}
-
-.contact-me textarea {
-    float: left;
-    width: 50%;
-} */
-
-/* Style inputs, select elements and textareas */
 .contact-me input, textarea{
     width: 90%;
     padding: 12px;
@@ -222,7 +197,7 @@ figure.code-skill {
     margin: 5rem;
 }
   
-  /* Style the label to display next to the inputs */
+ 
   .contact-me label {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -230,13 +205,13 @@ figure.code-skill {
   }
   
 
-  /* Style the container */
+  
   .contact-me  {
     border-radius: 5px;
     padding: 20px;
   }
   
-  /* Floating column for labels: 25% width */
+  
   .col-25 {
     float: left;
     width: 25%;
@@ -244,14 +219,14 @@ figure.code-skill {
     padding-left: 10rem;
   }
   
-  /* Floating column for inputs: 75% width */
+  
   .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
   }
   
-  /* Clear floats after the columns */
+  
   .row:after {
     content: "";
     display: table;
@@ -265,7 +240,7 @@ figure.code-skill {
     background-color: red;
     color: white;
     font-size: 2em;
-    margin: 3rem auto;
+    margin: 2rem auto;
     display: block;
     border: none;
     outline: none;
