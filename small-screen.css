@@ -464,5 +464,77 @@ and (min-height:1300px) {
 
 }
 
+/* DESKTOP SCREENS HORIZONTALLY */
+
+    @media screen
+    and (max-width: 600px) 
+    and (min-height: 780px) {
+        
+        .navbar a {
+            font-size: 1.4rem;
+        }
+
+        .personalInfo h1 {
+            top: 6%;
+            font-size: 4rem;
+        }
+
+        .personalInfo p {
+            bottom: 5%;
+            width: 60%;
+            font-size: 1.4rem;
+        
+        }
+
+        .skillset {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .grid1 {
+            grid-template-columns: repeat(2, 150px) auto;
+            grid-template-rows: repeat(2, 100px);
+        }
+
+        .grid2 {
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, 150px);
+        }
+
+        .contact-me label {
+            font-size: 1.2rem;
+        }
+
+        .col-25 {
+            width: 25%;
+            padding-left: 2rem;
+          }
+          
+          .col-75 {
+            float: right;
+            width: 75%;
+          }
+
+          .form-button {
+            height: 3rem;
+            width: 6rem;
+            font-size: 1.7em;
+        }
+
+        .prof-links img {
+            width: 55px;
+            height: 55px;
+            padding: 5%;
+        }
+
+        .top-of-page {
+            right: 1rem;
+            bottom: .5rem;
+            min-height: 55px; 
+            min-width: 55px;
+        }
+
+    }
+
 
   /* TABLET SCREENS HORIZONTALLY */
