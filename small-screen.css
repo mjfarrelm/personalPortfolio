@@ -43,61 +43,14 @@ and (max-width: 481px) {
     }
 
     .grid1 {
-        display: grid;
         grid-template-columns: repeat(2, 65px) auto;
         grid-template-rows: repeat(2, 120px);
-        gap: 10px 10px;
-        padding: 5px 30px 5px 30px;
-    }
-    
-    .gr1{
-        background-color: aqua;
-        grid-area: 1 / 1 / 2 / 3; 
-        border-radius: 10px;
-    }
-    
-    .gr2{
-        background-color:darksalmon;
-        grid-area: 2 / 1 / 3 / 3;
-        border-radius: 10px;
-    }
-    
-    .gr3{
-        background-color:yellow;
-        grid-area: 1 / 3 / 3 / 4;
-        border-radius: 10px;
+
     }
     
     .grid2 {
-        display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, 150px);
-        gap: 10px 10px;
-        padding: 5px 30px 5px 30px;
-    }
-    
-    .gr4{
-        background-color: rgb(255, 0, 200);
-        grid-area: 1 / 1 / 2 / 2; 
-        border-radius: 10px;
-    }
-    
-    .gr5{
-        background-color:rgb(228, 31, 31);
-        grid-area: 1 / 2 / 2 / 3;
-        border-radius: 10px;
-    }
-    
-    .gr6{
-        background-color:rgb(66, 37, 230);
-        grid-area: 2 / 1 / 3 / 2;
-        border-radius: 10px;
-    }
-    
-    .gr7{
-        background-color:rgb(5, 242, 52);
-        grid-area: 2 / 2 / 3 / 3;
-        border-radius: 10px;
     }
     
     #Contact {
@@ -210,7 +163,7 @@ and (max-width: 370px) {
         font-size: 1.5rem
     }
     .personalInfo p {
-        font-size: .6rem;
+        font-size: .7rem;
         bottom: 35%;
     }
 
@@ -234,6 +187,81 @@ and (max-width: 370px) {
         min-width: 40px;
 
     }
+}
+
+
+/* TABLET SCREENS VERTICALLY */
+
+
+@media screen
+and (max-width: 768px) 
+and (min-height:1000px) {
+
+
+    .navbar a {
+        font-size: 1.5em;
+    }
+
+    .personalInfo h1 {
+        top: 5%;
+        font-size: 5.5rem
+    }
+    .personalInfo p {
+        font-size: 1.7rem;
+        bottom: 10%;
+    }
+
+    .skillset {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    figure.code-skill {
+        text-align: center;
+        width: 100px;
+    }
+
+    .code-skill img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .code-skill figcaption {
+        font-size: 1.5rem;
+    }
+
+    .grid1 {
+        grid-template-columns: repeat(2, 165px) auto;
+        grid-template-rows: repeat(2, 150px);
+        gap: 10px 10px;
+        padding: 20px 30px 20px 30px;
+    }
+    
+    .grid2 {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 150px);
+        gap: 10px 10px;
+        padding: 20px 30px 20px 30px;
+    }
+
+    .contact-me input, textarea{
+        width: 100%
+      }
+
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        padding-left: 3rem;
+      }
+      
+      
+      .col-75 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+      }
 }
 
   /* TABLET SCREENS HORIZONTALLY */
