@@ -436,7 +436,7 @@
 
   @media screen
     and (orientation:landscape)
-    and (min-width: 1000px) {
+    and (max-width: 1100px){
 
         .navbar{
             height: 6em;
@@ -554,6 +554,229 @@
             bottom: .8rem;
             min-height: 70px; 
             min-width: 70px;
+        }
+
+    }
+
+    @media screen
+    and (orientation:landscape)
+    and (max-width: 1300px)  {
+
+        .personalInfo p {
+            bottom: -65%;
+            width: 60%;
+            font-size: 2.5rem;
+        
+        }
+
+        .heading{
+            padding-left: 2.5rem;
+            font-size: 2.5rem;
+        }
+
+        .skillset {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        figure.code-skill {
+            text-align: center;
+            width: 200px;
+            font-size: 1.5rem;
+        }
+        
+        .code-skill img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .grid1 {
+            display: grid;
+            grid-template-columns: repeat(2, 280px) auto;
+            grid-template-rows: repeat(2, 285px);
+            gap: 10px 10px;
+            padding: 5px 30px 5px 30px;
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: repeat(2, 515px) auto;
+            grid-template-rows: repeat(2, 300px);
+            gap: 10px 10px;
+            padding: 5px 30px 5px 30px;
+        }
+
+        .contact-me input, textarea{
+            font-size: 1.5rem;
+          }
+
+        
+        .contact-me p {
+            font-size: 1.5rem;
+        }
+
+        .contact-me label {
+            padding: 12px 5px 12px 0;
+            display: inline-block;
+            font-size: 1.3rem;
+          }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            padding-left: 8rem;
+          }
+          
+          
+          .col-75 {
+            float: right;
+            width: 75%;
+            margin-top: 6px;
+          }
+
+          .form-button {
+            height: 3rem;
+            width: 6.5rem;
+            font-size: 2em;
+        }
+
+        .contactInfo {
+            height: 6em;
+        }
+
+        .prof-links img {
+            width: 70px;
+            height: 70px;
+            padding: 5%;
+        }
+        
+        .signature {
+            font-size: 1rem;
+        }
+
+        .top-of-page {
+            right: .5rem;
+            bottom: .8rem;
+            min-height: 70px; 
+            min-width: 70px;
+        }
+
+    }
+
+    @media screen
+    and (orientation:landscape)
+    and (min-width: 1300px)  {
+
+        .navbar{
+            height: 7em;
+            top: -7em;
+        }
+
+        .navbar a {
+            font-size: 2rem;
+        }
+
+        .navbar img {
+            width: auto;
+            height: 80px;
+        }
+
+        .personalInfo h1 {
+            top: 5%;
+            font-size: 10rem;
+        }
+
+        .personalInfo p {
+            bottom: -65%;
+            width: 60%;
+            font-size: 3rem;
+        
+        }
+
+        .heading{
+            padding-left: 2.5rem;
+            font-size: 3rem;
+        }
+
+        .skillset {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        figure.code-skill {
+            text-align: center;
+            width: 300px;
+            font-size: 2rem;
+        }
+        
+        .code-skill img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .grid1 {
+            grid-template-columns: repeat(2, 300px) auto;
+            grid-template-rows: repeat(2, 300px);
+        }
+
+        .grid2 {
+            grid-template-columns: repeat(2, 650px) auto;
+            grid-template-rows: repeat(2, 400px);
+        }
+
+        .contact-me input, textarea{
+            font-size: 2rem;
+          }
+
+        
+        .contact-me p {
+            font-size: 2rem;
+            margin: 7rem;
+        }
+
+        .contact-me label {
+            font-size: 2rem;
+          }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            padding-left: 8rem;
+          }
+          
+          
+          .col-75 {
+            float: right;
+            width: 75%;
+            margin-top: 6px;
+          }
+
+          .form-button {
+            height: 4rem;
+            width: 8rem;
+            font-size: 2.4em;
+            margin: 3rem auto;
+        }
+
+        .contactInfo {
+            height: 7em;
+        }
+
+        .prof-links img {
+            width: 80px;
+            height: 80px;
+            padding: 5%;
+        }
+        
+        .signature {
+            font-size: 1.3rem;
+        }
+
+        .top-of-page {
+            right: .8rem;
+            bottom: 1rem;
+            min-height: 80px; 
+            min-width: 80px;
         }
 
     }

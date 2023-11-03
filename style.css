@@ -184,10 +184,8 @@ figure.code-skill {
 .contact-me input, textarea{
     width: 90%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
     font-size: 1.5rem;
   }
 
@@ -201,7 +199,6 @@ figure.code-skill {
   .contact-me label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    font-size: 1.5rem;
   }
   
   .contact-me  {
@@ -212,9 +209,8 @@ figure.code-skill {
   
   .col-25 {
     float: left;
-    width: 25%;
+    width: 30%;
     margin-top: 6px;
-    padding-left: 10rem;
   }
   
   
