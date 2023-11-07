@@ -199,6 +199,8 @@ figure.code-skill {
   .contact-me label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-size: 1.5rem;
+
   }
   
   .contact-me  {
@@ -209,14 +211,15 @@ figure.code-skill {
   
   .col-25 {
     float: left;
-    width: 30%;
+    width: 25%;
     margin-top: 6px;
+    padding-left: 8rem;
   }
   
   
   .col-75 {
     float: left;
-    width: 75%;
+    width: 65%;
     margin-top: 6px;
   }
   
