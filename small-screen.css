@@ -1,19 +1,212 @@
 /* MOBILE PHONE SCREENS VERTICALLY */
 
+
+  @media screen
+  and (orientation:portrait)
+and (max-width: 360px)
+and (max-height: 570px) 
+{
+
+    .navbar{
+        height: 3em;
+        top: -3em;
+    }
+
+    .navbar a {
+        font-size: .8em;
+    }
+
+    .navbar img {
+        height: 35px;
+    }
+
+    .personalInfo h1 {
+        top: 6%;
+        font-size: 1.7rem
+    }
+    .personalInfo p {
+        font-size: .7rem;
+        bottom: 35%;
+    }
+
+    .heading{
+        padding: 0;
+        font-size: 1.3em;
+    }
+
+    #Skills {
+        text-align: center;
+        padding-top: 3.5rem;
+        padding-bottom: 3rem;
+    }
+
+    #Projects {
+        padding-top: .1rem;
+    }
+
+    .skillset {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+
+    figure.code-skill {
+        width: 60px;
+    }
+    
+    .code-skill img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .code-projects {
+        padding: .5rem, 1rem, 1.5rem, 1rem;
+        width: auto;
+    }
+
+
+    .grid1 {
+        grid-template-columns: repeat(2, 55px) auto;
+        grid-template-rows: repeat(2, 100px);
+
+    }
+    
+    .grid2 {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 130px);
+    }
+
+    
+    #Contact {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .contact-me {
+        margin-bottom: 2rem;
+        width: auto;
+    }
+
+    .contact-me input, textarea{
+        width: 60%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        resize: vertical;
+        font-size: .8rem;
+      }
+    
+      .contact-me p {
+        font-size: .8rem;
+        text-align: center;
+        padding-top: 2.5rem;
+        margin: 2.5rem;
+    }
+      
+      .contact-me label {
+        padding: 7px 12px 10px 0;
+        display: inline-block;
+        font-size: .8rem;
+        text-align: left;
+      }
+
+      .contact-me textarea {
+        height: 2em;
+        margin-top: 1px;
+      }
+      
+      .contact-me  {
+        border-radius: 5px;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 15%;
+        padding-left: 2.5rem;
+      }
+      
+    
+      .col-75 {
+        float: right;
+        width: 75%;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    
+    .form-button {
+        height: 2rem;
+        width: 4rem;
+        background-color: red;
+        color: white;
+        font-size: 1em;
+        margin: rem auto;
+        display: block;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .contactInfo {
+        height: 3em;
+    }
+
+    .prof-links img {
+        width: 35px;
+        height: 35px;
+        padding: 5%;
+    }
+   
+    .signature {
+        font-size: 6px;
+    }
+
+    .top-of-page {
+        right: .3rem;
+        bottom: .3rem;
+        min-height: 35px; 
+        min-width: 35px;
+    }
+
+}
+
 @media screen
-and (max-width: 481px) {
+and (orientation: portrait)
+and (min-width: 350px)
+and (max-width: 400px)
+ {
+
+    .navbar{
+        height: 3em;
+        top: -3em;
+    }
+
+    .navbar a {
+        font-size: .8em;
+    }
+
+    .navbar img {
+        height: 35px;
+    }
     
     .personalInfo {
         padding-bottom: 0;
     }
     
     .personalInfo h1 {
-        top: 25%;
-        font-size: 2.5rem;
+        top: 5%;
+        font-size: 2.2rem;
     }
     .personalInfo p {
         font-size: .8rem;
-        bottom: 30%;
+        bottom: 35%;
     }
 
     .heading {
@@ -29,10 +222,6 @@ and (max-width: 481px) {
     .skillset {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0;
-        padding-bottom: 0;
     }
     
     #Projects {
@@ -127,6 +316,10 @@ and (max-width: 481px) {
         cursor: pointer;
     }
 
+    .contactInfo {
+        height: 3em;
+    }
+
     .prof-links img {
         width: 40px;
         height: 40px;
@@ -138,62 +331,21 @@ and (max-width: 481px) {
     }
 
     .top-of-page {
-        right: .5rem;
-        bottom: .5rem;
-        min-height: 50px; 
-        min-width: 50px;
-    }
-  }
-
-  @media screen
-and (max-width: 370px) {
-
-    .navbar a {
-        font-size: .8em;
-    }
-
-    .navbar img {
-        height: 50px;
-    }
-
-    .personalInfo h1 {
-        top: 25%;
-        font-size: 1.5rem
-    }
-    .personalInfo p {
-        font-size: .7rem;
-        bottom: 35%;
-    }
-
-    .col-25 {
-        float: left;
-        width: 20%;
-        padding-left: 1rem;
-      }
-      
-    
-      .col-75 {
-        float: right;
-        width: 80%;
-      }
-
-      .top-of-page {
-        position: fixed;
-        right: .1rem;
-        bottom: 1.2rem;
+        right: .2rem;
+        bottom: .2rem;
         min-height: 40px; 
         min-width: 40px;
-
     }
-}
+  }
 
 
 /* TABLET SCREENS VERTICALLY */
 
 
 @media screen
-and (max-width: 800px) 
-and (min-height: 1000px) {
+and (orientation: portrait)
+and (min-width: 750px) 
+and (max-height: 1050px) {
 
 
     .navbar a {
@@ -274,7 +426,8 @@ and (min-height: 1000px) {
 }
 
 @media screen
-and (max-width: 900px) 
+and (orientation: portrait)
+and (max-width: 850px) 
 and (min-height: 1100px) {
 
     .navbar a {
@@ -283,7 +436,7 @@ and (min-height: 1100px) {
 
     .personalInfo h1 {
         top: 7%;
-        font-size: 5rem;
+        font-size: 4rem;
       
     }
 
@@ -364,7 +517,8 @@ and (min-height: 1100px) {
 }
 
 @media screen
-and (max-width: 1100px) 
+and (orientation: portrait)
+and (min-width: 1000px)
 and (min-height:1300px) {
 
     .navbar a {
@@ -372,7 +526,7 @@ and (min-height:1300px) {
     }
 
     .personalInfo h1 {
-        top: 6%;
+        top: 5%;
         font-size: 7rem;
       
     }
@@ -465,16 +619,17 @@ and (min-height:1300px) {
 /* DESKTOP SCREENS HORIZONTALLY */
 
     @media screen
-    and (max-width: 800px) 
-    and (min-height: 580px) {
+    and (orientation: portrait)
+    and (min-width: 500px) 
+    and (max-height: 800px) {
         
         .navbar a {
             font-size: 1.4rem;
         }
 
         .personalInfo h1 {
-            top: 5%;
-            font-size: 4rem;
+            top: 6%;
+            font-size: 3.7rem;
         }
 
         .personalInfo p {
