@@ -1,7 +1,6 @@
 * { 
     box-sizing: border-box;
     font-family: 'DM Serif Display', serif;
-    font-family: 'PT Serif', serif;
 }
 
 
@@ -12,10 +11,10 @@
     align-items: center;
     background-color: #111;
     color: white;
-    height: 5em;
+    height: 7%;
     width: 100%;
     position: fixed;
-    top: -5em;
+    top: -7%;
     transform: translateY(100%);
     transition: transform .3s linear;
     z-index: 6;
@@ -24,11 +23,18 @@
 .navbar a {
     color: white;
     text-decoration: none;
+    font-size: .75rem;
+}
+
+.navbar a:hover {
+    box-shadow: inset 200px 0 0 0 white;
+    color: black;
+    text-decoration: underline;
 }
 
 .navbar img {
     width: auto;
-    height: 60px;
+    height: 30px;
 }
 
 body {
@@ -36,22 +42,21 @@ body {
 }
 
 .personalInfo {
-    padding-bottom: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 30%;
     width: auto;
     height: 70%;
 }
 
 .personalInfo h1 {
     position: absolute;
-    top: 7%;
+    top: 5%;
     text-align: center;
     color: #111;
     -webkit-text-stroke: 2px black;
-    font-size: 10rem;
+    font-size: 2rem;
     z-index: 5;
 }
 
@@ -65,48 +70,51 @@ body {
     position: absolute;
     display: inline-block;
     text-align: center;
-    bottom: -110%;
+    padding-top: 60%;
+    padding-bottom: 10%;
     width: 60%;
-    font-size: 2.75rem;
-
+    font-size: .75rem;
 }
 
 .heading{
-    padding-left: 2rem;
-    font-size: xx-large;
+    font-size: large;
+    text-align: center;
 }
 
 #Skills {
-    padding-top: 4rem;
+    padding-top: 12%;
+    padding-bottom: 5%;
 }
 
 #Projects {
-    padding-top: 4rem;
+    padding-top: 12%;
+    padding-bottom: 10%;
 }
 
 #Contact {
-    padding-top: 4rem;
+    padding-top: 12%;
 }
 
 
 
 .skillset {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10%;
 }
 
 
 figure.code-skill {
+    font-size: .75rem;
     text-align: center;
-    width: 80px;
+    width: 50px;
 }
 
 .code-skill img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .code-skill caption {
@@ -114,14 +122,14 @@ figure.code-skill {
 }
 
 .code-projects {
-    padding: 5rem, 2rem, 2.5rem, 2rem;
+    /* padding: 10%, 4%, 5%, 4%; */
     width: auto;
 }
 
 .grid1 {
     display: grid;
-    grid-template-columns: repeat(2, 350px) auto;
-    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(2, 25%) auto;
+    grid-template-rows: repeat(2, 100px);
     gap: 10px 10px;
     padding: 5px 30px 5px 30px;
 }
@@ -147,7 +155,7 @@ figure.code-skill {
 .grid2 {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, 400px);
+    grid-template-rows: repeat(2, 150px);
     gap: 10px 10px;
     padding: 5px 30px 5px 30px;
 }
@@ -177,30 +185,28 @@ figure.code-skill {
 }
 
 .contact-me {
-    margin-bottom: 5rem;
+    margin-bottom: 20%;
     width: auto;
 }
 
 .contact-me input, textarea{
     width: 90%;
-    padding: 12px;
-    border: 1.5px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: .75rem;
   }
 
   .contact-me p {
-    font-size: 1.5rem;
+    font-size: .85rem;
     text-align: center;
-    margin: 5rem;
+    margin: 15%;
 }
   
  
   .contact-me label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    font-size: 1.5rem;
-
+    font-size: .75rem;
   }
   
   .contact-me  {
@@ -212,13 +218,12 @@ figure.code-skill {
   .col-25 {
     float: left;
     width: 25%;
-    margin-top: 6px;
-    padding-left: 8rem;
+    padding-left: 10%;
   }
   
   
   .col-75 {
-    float: left;
+    float: right;
     width: 65%;
     margin-top: 6px;
   }
@@ -232,12 +237,12 @@ figure.code-skill {
 
 
 .form-button {
-    height: 4rem;
-    width: 8rem;
+    height: 2rem;
+    width: 4rem;
     background-color: red;
     color: white;
-    font-size: 2em;
-    margin: 2rem auto;
+    font-size: .85em;
+    margin: 10% auto;
     display: block;
     border: none;
     outline: none;
@@ -246,33 +251,32 @@ figure.code-skill {
 }
 
 .contactInfo {
-    height: 5em;
-    width: 100%;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 19%;
+    width: 100%;
+    background-color: black;
 }
 
-
-
 .prof-links img {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     padding: 5%;
 }
 
 .signature {
     color: white;
+    font-size: .5rem;
 }
 
 .top-of-page {
     position: fixed;
-    right: 2.5rem;
-    bottom: .5rem;
-    min-height: 60px; 
-    min-width: 60px;
-    border: 5px solid rgb(255, 255, 255);
+    right: 1%;
+    bottom: .5%;
+    min-height: 30px; 
+    min-width: 30px;
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 50%;
     background-color: rgb(1, 1, 1);
     color: white;
